@@ -182,6 +182,7 @@
     "UseScreenshotCache": true,
     "EnableImageSearch": true,
     "UseBrowserExtension": false,
+    "ChromiumFirstInteractionDelay": 500,
     "TelerikComponentsVersion": 0,
     "ScrollOnImageSearch": true,
     "DisplayElementImagePreview": true,
@@ -191,7 +192,6 @@
     "ElementImageSearchDelay": 300,
     "SimulateRealClickByDefault": true,
     "SimulateRealTypingByDefault": true,
-    "SimulateRealSilverlightUserByDefault": true,
     "DefaultDropDownSelection": 2,
     "QuickExecutionElementWaitTimeout": 15000,
     "QuickExecutionClientReadyTimeout": 60000,
@@ -214,24 +214,45 @@
     "RecordWpfWindowStateChanged": false,
     "PromptNameOnAddElement": true,
     "DefaultWPFApplication": null,
+    "DefaultWPFApplicationArgs": null,
     "DefaultDesktopApplication": null,
+    "DefaultDesktopApplicationArgs": null,
     "UseLegacySilverlightFindLogic": false,
     "ProjectGuid": "9989d99c-f901-49f6-9367-3b504e3d7335",
-    "SourceControlRepository": null,
-    "IsOnline": false,
+    "SourceControlRepository": {
+      "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitRepositoryInfo",
+      "__value": {
+        "RemotePath": "https://github.com/estoyan/test_studio_test.git",
+        "ServerInfo": {
+          "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitServerInfo",
+          "__value": {
+            "ServerName": "https://github.com/estoyan/test_studio_test.git"
+          }
+        },
+        "ServerType": 2
+      }
+    },
+    "IsOnline": true,
     "ProjectLanguage": 2,
     "ProjectReferences": [
       "System",
       "System.Core",
       "ArtOfTest.WebAii, Version=2021.2.1025.0, Culture=neutral, PublicKeyToken=4fd5f65be123776c",
       "ArtOfTest.WebAii.Messaging, Version=2021.2.1025.0, Culture=neutral, PublicKeyToken=4fd5f65be123776c",
-      "ArtOfTest.WebAii.Design, Version=2021.2.1025.0, Culture=neutral, PublicKeyToken=4fc62bbc3827ab1d"
+      "ArtOfTest.WebAii.Design, Version=2021.2.1025.0, Culture=neutral, PublicKeyToken=4fc62bbc3827ab1d",
+      "Telerik.WebAii.Controls.Html, Version=2021.2.1025.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.WebAii.Controls.Xaml, Version=2021.2.1025.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.WebAii.Controls.Xaml.Wpf, Version=2021.2.1025.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.TestingFramework.Controls.KendoUI, Version=2021.2.1025.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.TestingFramework.Controls.KendoUI.Angular, Version=2021.2.1025.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.TestingFramework.Controls.TelerikUI.Blazor, Version=2021.2.1025.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.TestStudio.Translators.Common, Version=2021.2.1025.0, Culture=neutral, PublicKeyToken=528163f3e645de45"
     ],
     "ScheduleServerUrl": "http://localhost:8009",
     "IsScheduleServerRemote": false,
     "NotificationSettings": null,
     "WebComponents": true,
-    "ProjectVersion": "2023.1.220.0",
+    "ProjectVersion": "2023.3.1122.0",
     "Namespace": "TestProject11",
     "AssemblyName": "TestProject11",
     "OutputFolder": "bin",
@@ -245,7 +266,7 @@
     "BugAddAttachment": true,
     "BugAutoSubmit": false,
     "BugDescriptionMask": "{Description}",
-    "SelectedBrowserOption": 0,
+    "SelectedBrowserOption": 4,
     "SelectedResponsiveBrowserOption": 0,
     "ResponsiveBrowserDevice": null,
     "ResponsiveBrowserWidth": 375,
