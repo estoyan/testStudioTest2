@@ -2,10 +2,6 @@
   "__type": "ArtOfTest.WebAii.Design.ProjectModel.Test",
   "__value": {
     "DomStatesCounter": {},
-<<<<<<< HEAD
-    "AppStartSkip": false,
-=======
->>>>>>> master
     "WebKitExecutionDelay": 0,
     "ReuseAppWindow": 0,
     "ProfilerResultsDirectory": null,
@@ -28,22 +24,14 @@
     "SilverlightAppOriginUri": null,
     "WpfAppPath": null,
     "AppStartArgs": null,
-<<<<<<< HEAD
-    "AppWorkingFolder": null,
-    "UseDefaultWpfAppPath": false,
-    "DesktopAppPath": null,
-    "UseDefaultDesktopAppPath": false,
-    "TestAssembly": "TestProject44.dll",
-=======
     "UseDefaultWpfAppPath": false,
     "DesktopAppPath": null,
     "UseDefaultDesktopAppPath": false,
     "TestAssembly": "TestProject11.dll",
->>>>>>> master
     "TestAssemblyPath": "bin",
     "TestClass": "",
-    "ResourceFilePath": "WebTest.resx",
-    "ElementImageStoreFilePath": "WebTest.imgstore",
+    "ResourceFilePath": "DesktopTest.resx",
+    "ElementImageStoreFilePath": "DesktopTest.imgstore",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -68,28 +56,19 @@
     "StopTestListOnFailure": false,
     "InheritParentDataSource": false,
     "BrowserType": 0,
-<<<<<<< HEAD
-=======
     "QcId": 0,
     "QcFilePath": null,
     "QcTestVersionStamp": 0,
->>>>>>> master
     "TestLinks": [],
     "Description": "",
-    "Name": "WebTest",
+    "Name": "DesktopTest",
     "Owner": "",
-    "Path": "WebTest.tstest",
+    "Path": "DesktopTest.tstest",
     "Priority": 0,
-    "TestType": 0,
-<<<<<<< HEAD
-    "UniqueId": "537524ff-c3fe-4f54-b61b-613651b3b29e",
-    "Id": "537524ff-c3fe-4f54-b61b-613651b3b29e",
-    "ProjectId": "0497eef6-53d3-4d10-87a2-6ee8e7eb03d1",
-=======
-    "UniqueId": "90d311f0-3be4-4364-9ea5-3a1a8756e544",
-    "Id": "90d311f0-3be4-4364-9ea5-3a1a8756e544",
+    "TestType": 5,
+    "UniqueId": "1c191caf-c772-4e7d-8e73-1ec3a1337eff",
+    "Id": "1c191caf-c772-4e7d-8e73-1ec3a1337eff",
     "ProjectId": "9989d99c-f901-49f6-9367-3b504e3d7335",
->>>>>>> master
     "Version": 200
   }
 }

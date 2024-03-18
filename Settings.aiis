@@ -183,7 +183,10 @@
     "EnableImageSearch": true,
     "UseBrowserExtension": false,
     "ChromiumFirstInteractionDelay": 500,
+<<<<<<< HEAD
     "FirefoxMinimumJSClickDelay": 100,
+=======
+>>>>>>> master
     "TelerikComponentsVersion": 0,
     "ScrollOnImageSearch": true,
     "DisplayElementImagePreview": true,
@@ -204,6 +207,7 @@
     "PromptNameOnAddElement": true,
     "DefaultWPFApplication": null,
     "DefaultWPFApplicationArgs": null,
+<<<<<<< HEAD
     "DefaultWPFApplicationWorkingFolder": null,
     "DefaultDesktopApplication": null,
     "DefaultDesktopApplicationArgs": null,
@@ -212,6 +216,26 @@
     "ProjectGuid": "0497eef6-53d3-4d10-87a2-6ee8e7eb03d1",
     "SourceControlRepository": null,
     "IsOnline": false,
+=======
+    "DefaultDesktopApplication": null,
+    "DefaultDesktopApplicationArgs": null,
+    "UseLegacySilverlightFindLogic": false,
+    "ProjectGuid": "9989d99c-f901-49f6-9367-3b504e3d7335",
+    "SourceControlRepository": {
+      "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitRepositoryInfo",
+      "__value": {
+        "RemotePath": "https://github.com/estoyan/test_studio_test.git",
+        "ServerInfo": {
+          "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitServerInfo",
+          "__value": {
+            "ServerName": "https://github.com/estoyan/test_studio_test.git"
+          }
+        },
+        "ServerType": 2
+      }
+    },
+    "IsOnline": true,
+>>>>>>> master
     "ProjectLanguage": 2,
     "ProjectReferences": [
       "System",
@@ -231,9 +255,15 @@
     "IsScheduleServerRemote": false,
     "NotificationSettings": null,
     "WebComponents": true,
+<<<<<<< HEAD
     "ProjectVersion": "2024.1.207.0",
     "Namespace": "TestProject44",
     "AssemblyName": "TestProject44",
+=======
+    "ProjectVersion": "2023.3.1124.0",
+    "Namespace": "TestProject11",
+    "AssemblyName": "TestProject11",
+>>>>>>> master
     "OutputFolder": "bin",
     "ExcludedFiles": [],
     "InDevelopmentFiles": [],
@@ -245,7 +275,11 @@
     "BugAddAttachment": true,
     "BugAutoSubmit": false,
     "BugDescriptionMask": "{Description}",
+<<<<<<< HEAD
     "SelectedBrowserOption": 7,
+=======
+    "SelectedBrowserOption": 4,
+>>>>>>> master
     "SelectedResponsiveBrowserOption": 0,
     "ResponsiveBrowserDevice": null,
     "ResponsiveBrowserWidth": 375,
